@@ -1,0 +1,172 @@
+
+dateform        = "Jan 2, 2006"
+dateformShort   = "Jan 2"
+dateformNum     = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04"
+
+# Metadata mostly used in document's head
+# 
+description = "Control-Alt-Kaboom - Administrative Control-Plane And Experimental Decentralization Playground"
+keywords = ""
+images = [""]
+
+# Home page title
+homeTitle = "Control-Alt-Kaboom"
+
+# Home subtitle of the index page.
+#
+homeSubtitle = "Administrative Control-Plane And Experimental Decentralization Playground"
+
+# Set a background for the homepage
+backgroundImage = "images/dirty-wall-03.jpg"
+
+# Adds a dark overlay over the background
+backgroundEffects = true
+
+# Prefix of link to the git commit detail page. GitInfo must be enabled.
+#
+# gitUrl = ""
+
+# Set disableReadOtherPosts to true in order to hide the links to other posts.
+#
+disableReadOtherPosts = false
+
+# Sets the default theme
+defaultTheme = "dark"
+
+# Enable theme toggle
+# 
+# This options enables the theme toggle for the theme. 
+# Per default, this option is off. 
+# The theme is respecting the prefers-color-scheme of the operating systeme. 
+# With this option on, the page user is able to set the scheme he wants. 
+enableThemeToggle = false
+
+# Sharing buttons
+#
+# There are a lot of buttons preconfigured. If you want to change them,
+# generate the buttons here: https://sharingbuttons.io
+# and add them into your own `layouts/partials/sharing-buttons.html`
+#
+enableSharingButtons = true
+
+# Global language menu
+#
+# Enables the global language menu.
+#
+enableGlobalLanguageMenu = false
+
+# Shows Posts on the front/Home page
+showPosts = true
+
+# Shows the ReadMore button in text instead
+ReadmoreText = true
+
+# Hides ReadMore
+hideReadMore = false
+
+# Shows reding time
+ShowReadingTime = true
+
+# Integrate Javascript files or stylesheets by adding the url to the external assets or by
+# linking local files with their path relative to the static folder, e.g. "css/styles.css"
+#
+customCSS = []
+customJS  = []
+
+# Toggle this option need to rebuild SCSS, requires extended version of Hugo
+#
+justifyContent = false  # Set "text-align: justify" to .post-content.
+
+# Fontawesome - get get from ENVKEY
+# TODO: get from envkey
+#
+[fontAwesome]
+  KitURL = "https://kit.fontawesome.com/e9a01c107c.js"
+
+# Custom footer 
+# If you want, you can easily override the default footer with your own content. 
+#
+[footer]
+  trademark = true
+  rss = true
+  copyright = true
+  author = true
+
+  # Shows social icons on footer instead of main page
+  socialIcons = true
+
+  topText = []
+  bottomText = [
+    "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+    "Hello 4s3ti theme by <a href=\"https://github.com/control-alt-kaboom\">zeroday</a>"
+  ]
+
+# Colors for favicons
+#
+[favicon.color]
+  mask = "#1b1c1d"
+  msapplication = "#1b1c1d"
+  theme = "#1b1c1d"
+
+[logo]
+  logoMark     = ">"
+  logoText     = "$ cd /home/"
+  logoHomeLink = "/"
+  # Set true to remove the logo cursor entirely.
+  # logoCursorDisabled = false
+  # Set to a valid CSS color to change the cursor in the logo.
+  # logoCursorColor    = "#67a2c9"
+  # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+  # logoCursorAnimate  = "2s"
+
+# Commento is more than just a comments widget you can embed — 
+# it’s a return to the roots of the internet. 
+# An internet without the tracking and invasions of privacy. 
+# An internet that is simple and lightweight. 
+# An internet that is focused on interesting discussions, not ads. 
+# A better internet.
+# Uncomment this to enable Commento.
+#
+# [commento]
+#   url = ""
+
+# Uncomment this if you want a portrait on your start page
+#
+# [portrait]
+#   path     = "/img/image.jpg"
+#   alt      = "Portrait"
+#   maxWidth = "50px"
+
+# Social icons
+[[social]]
+  name = "terminal"
+  url  = "https://terminal.control-alt-kaboom.ca/"
+  icon = "fa-solid fa-terminal fa-fade"
+
+[[social]]
+  name = "authenticate"
+  url  = "https://auth.control-alt-kaboom.ca/"
+  icon = "fa-solid fa-fingerprint fa-bounce"
+
+[[social]]
+  name = "hackordie"
+  url  = "https://hackordie.control-alt-kaboom.ca"
+  icon = "fa-solid fa-bomb fa-bounce-fade"
+
+[[social]]
+  name = "github"
+  url  = "https://github.com/control-alt-kaboom-project/"
+  icon = "fa-brands fa-github fa-spin"
+
+[[social]]
+  name = "news-articles"
+  url  = "https://control-alt-kaboom.ca/resources/news-articles"
+  icon = "fa-solid fa-ghost fa-beat"
+
+[[social]]
+  name = "store"
+  url  = "https://control-akt-kaboom.ca/store/"
+  icon = "fa-solid fa-cart-shopping fa-shake"
+
+
